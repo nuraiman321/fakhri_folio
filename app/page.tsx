@@ -96,7 +96,7 @@ END:VCARD
   }, [currentText, texts]);
 
   return (
-    <section className="grid gap-5 kalam-font">
+    <section className="grid gap-5 kalam-font text-black">
       <header className="main-header ">
         <Avatar
           className="avatar-size absolute"
