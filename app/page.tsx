@@ -109,7 +109,7 @@ END:VCARD
           src="https://seeklogo.com/images/A/aia-logo-618BFE8E96-seeklogo.com.png"
         />
       </header>
-      <section className="grid gap-10 body-section">
+      <section className="grid gap-5 body-section">
         <section className="flex gap-3">
           <div className="mt-auto mb-auto grid">
             <h1 className={title()}>Nur Fakhri</h1>
@@ -196,7 +196,7 @@ END:VCARD
         </section>
         <section>
           <Button
-            className="text-black"
+            className="text-black save-btn"
             size="lg"
             fullWidth
             color="secondary"
