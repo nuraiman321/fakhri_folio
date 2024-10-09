@@ -100,6 +100,7 @@ END:VCARD
       <header className="main-header ">
         <Avatar
           className="avatar-size absolute"
+          color="secondary"
           isBordered
           radius="lg"
           src={fkh.src}
@@ -124,60 +125,63 @@ END:VCARD
         {/* <Button className="bg-gradient-to-tr from-primary to-secondary">
         test
       </Button> */}
-        <section className="mt-5">
+        <section className="">
           <div className="grid gap-4 justify-items-end">
-            <div className="flex gap-3">
+            <a
+              target="_blank"
+              className="flex gap-3"
+              href="https://wa.link/exgurx"
+            >
               <h1 className="action-label">Contact Me</h1>
               <div className="circle-btn">
-                <a target="_blank" href="https://wa.link/exgurx">
-                  <Button
-                    size="lg"
-                    isIconOnly
-                    color={actionBtnColor}
-                    onClick={handleWhatsapp}
-                    variant={actionBtnVariant}
-                  >
-                    <FaWhatsapp size={35} />
-                  </Button>
-                </a>
+                <Button
+                  size="lg"
+                  isIconOnly
+                  color={actionBtnColor}
+                  onClick={handleWhatsapp}
+                  variant={actionBtnVariant}
+                >
+                  <FaWhatsapp size={35} />
+                </Button>
               </div>
-            </div>
-            <div className="flex gap-3">
+            </a>
+
+            <a
+              className="flex gap-3"
+              target="_blank"
+              href="https://www.instagram.com/fkhrifzl?igsh=aWc2anI0ZGV1MXE2"
+            >
               <h1 className="action-label">Follow Me</h1>
               <div className="circle-btn">
-                <a
-                  target="_blank"
-                  href="https://www.instagram.com/fkhrifzl?igsh=aWc2anI0ZGV1MXE2"
+                <Button
+                  size="lg"
+                  isIconOnly
+                  color={actionBtnColor}
+                  variant={actionBtnVariant}
                 >
-                  <Button
-                    size="lg"
-                    isIconOnly
-                    color={actionBtnColor}
-                    variant={actionBtnVariant}
-                  >
-                    <IoLogoInstagram size={35} />
-                  </Button>
-                </a>
+                  <IoLogoInstagram size={35} />
+                </Button>
               </div>
-            </div>
-            <div className="flex gap-3">
+            </a>
+
+            <a
+              className="flex gap-3"
+              target="_blank"
+              href="https://www.facebook.com/share/ZfbsbUbjACccCMe9/"
+            >
               <h1 className="action-label">Follow Me</h1>
               <div className="circle-btn">
-                <a
-                  target="_blank"
-                  href="https://www.facebook.com/share/ZfbsbUbjACccCMe9/"
+                <Button
+                  size="lg"
+                  isIconOnly
+                  color={actionBtnColor}
+                  variant={actionBtnVariant}
                 >
-                  <Button
-                    size="lg"
-                    isIconOnly
-                    color={actionBtnColor}
-                    variant={actionBtnVariant}
-                  >
-                    <FaFacebook size={35} />
-                  </Button>
-                </a>
+                  <FaFacebook size={35} />
+                </Button>
               </div>
-            </div>
+            </a>
+
             <div className="flex gap-3">
               <h1 className="action-label">Free Quotation</h1>
               <div className="circle-btn">
